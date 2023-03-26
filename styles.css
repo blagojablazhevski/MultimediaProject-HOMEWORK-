@@ -168,3 +168,27 @@ nav a img {
 	text-decoration: none;
 	color: white;
 }
+.panelimageright {
+	display: inline-block;
+}
+.panelimagetext {
+	text-decoration: none;
+	font-family: arial;
+}
+.panelimagetext a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.panelimagetext a:hover {
+	color: #ef0107;
+}
+.panelimageleft {
+	display: inline-block;
+}
+.panelimageleft .panelimagetext {
+	float: left;
+}
+.panelimageleft .headlineimage {
+	float: left;
+}
