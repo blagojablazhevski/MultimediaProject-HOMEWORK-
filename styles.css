@@ -8,7 +8,6 @@ nav  {
 	list-style: none;
 	margin: 0;
 	overflow: hidden;
-	padding-left: 65px;
 }
 .headline {
 	background: #DB0007;
@@ -52,7 +51,7 @@ nav a img {
 	padding-left: 15px;
 }
 .navlistitem a:hover {
-	background: #063672;
+	background: #bb0000;
 }
 
 .navlist {
@@ -128,4 +127,44 @@ nav a img {
 }
 .matchinfo {
 	display: inline-block;
+}
+.playercardimage {
+	width: 400px;
+	height: 252px;
+	background-size: 400px 252px;
+	border-top: 3px solid #DB0007;
+}
+.playercard .firstname {
+	font-family: arial;
+	font-weight: bold;
+	color: dimgrey;
+}
+.playercard .lastname {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 25px;
+}
+.playercard p {
+	padding-left: 10px;
+}
+.headlinecontainer .playercard {
+	display: inline-block;
+	background: white;
+	-webkit-box-shadow: 0 2px 3px 0 #888888;
+	box-shadow: 0 2px 3px 0 #888888;
+	padding-right: 0px;
+	margin-bottom: 15px;
+}
+.navlistitem a:active {
+	background-color: #063672;
+}
+.upcominglink:hover {
+	color: #ef0107;
+}
+.headlinetext .upcominglink {
+	color: white;
+}
+.headline p a {
+	text-decoration: none;
+	color: white;
 }
